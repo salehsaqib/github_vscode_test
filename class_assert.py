@@ -14,8 +14,12 @@ class Item:
 
 item1 = Item("phone", 30000, 1)
 item2 = Item("Laptop", 100000, 3)
+item3 = Item("mobile", 2000, 13)
+
 
 print(item1.calculate_total_price())
 print(item2.calculate_total_price())
+print(item3.calculate_total_price())
+
 
 
